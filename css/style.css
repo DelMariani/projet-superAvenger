@@ -1,0 +1,119 @@
+
+body {
+    background-image: url("../img/fond.png");
+    width: 750px;
+    margin: auto;
+}
+
+* {
+    color: grey;
+    font-size: 16px;
+}
+
+    
+header {
+    background-color: #f5e5a0;
+    height: 100px; 
+}
+
+#superimg {
+    margin: 10px;
+    width: 20%;
+    height: 80%;
+}
+
+.navbar {
+    text-align: right;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    margin:auto
+}
+
+.navlink {
+    color: #eea143;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+article {
+    padding: 10px;
+    height: 320px;
+}
+
+.scd {
+    height: 450px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+}
+
+.more {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.button {
+    line-height: 2;
+    text-align: center;
+    background-color: #ff8c01;
+    display: inline;
+    float: right;
+ }
+
+main {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.fa-mask {
+    padding-right: 5px;
+    color: #eea143;
+}
+
+.picture {
+    width: 300px;
+    height: 150px;
+    margin-right:10px;
+}
+
+.fl{
+    text-align: left;
+    float: left;
+ }
+ 
+ .clear{
+     clear: none;
+ }
+
+
+ h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #eea143;
+ }
+
+ .footer {
+    text-align: center;
+    padding-bottom: 20px;
+ }
+
+/* Utiliser un positionnement flottant pour les images, la balise <nav>, etc... */
+
+/* Limiter la largeur du contenu à 750px et centrer le contenu. */
+
+/* Définir une taille de 16px au texte et 24px aux titres(h2). */
+
+/* Utiliser la police Google Font Oswald pour les titres (h2) et pour les éléments de votre barre de navigation. */
+
+/* Ajouter de petites icones (mask) devant les titres (h2), en utilisant les icônes de FontAwesome (https://fontawesome.com/icons?d=gallery)* */
